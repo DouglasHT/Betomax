@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2018, 15:42:21
+    Author     : douglasht
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body{
+    background-image: url('../imagens/background2.png');     
+}
+
+p{
+    color: #666666;
+    font: sans-serif;
+}
+
+.texto{
+    margin: 10px 10px 10px 10px;
+    font-family: 'Yantramanav', sans-serif;
+    color: #006600;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.logo{
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    color: #32CD32;
+    
+}
+.linkmenu{    
+    list-style-type: none;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 18px;
+    
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: gray;
+}
+
+li a:hover:not(.active) {
+    color: greenyellow;
+}
+.active {
+    background-color: #006600;
+    color: greenyellow;
+}
+
+.titulo{
+    top: 50px;
+    left: 400px;
+    text-align: center;
+    color: #006600;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 30px;
+   font-weight: bold;
+}
+
+.subtitulo{
+    top: 50px;
+    left: 400px;
+    text-align: center;
+    color: #006600;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+   font-weight: bold;
+}
+
+        
+.cabecalho{
+    float: left;
+    width: 100px
+}
+
+.descricao{
+    font-family: Times New Romam;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+
+
+}
+
+.formulario{
+    font-family: Times New Romam;
+    font-size: 20px;
+    margin: 40px 40px 40px 40px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cp{
+    margin-left: 5%;
+    padding-bottom: 10px;
+}
+#submit{
+   margin-left: 34%;
+}
